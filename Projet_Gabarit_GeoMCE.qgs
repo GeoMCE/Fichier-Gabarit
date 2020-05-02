@@ -1,0 +1,1702 @@
+<?xml version="1.0" ?><!DOCTYPE qgis  PUBLIC 'http://mrcc.com/qgis.dtd'  'SYSTEM'><qgis projectname="" version="2.14.11-Essen">
+  <title/>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="GeoMCE_gabarit_polygone20191204142726974" name="GeoMCE_gabarit_polygone">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="GeoMCE_gabarit_point20191204135555483" name="GeoMCE_gabarit_point">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="GeoMCE_gabarit_ligne20191204135407326" name="GeoMCE_gabarit_ligne">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>997314.98008350457530469</xmin>
+      <ymin>6257306.00745280086994171</ymin>
+      <xmax>1000798.92579531611409038</xmax>
+      <ymax>6261785.36622513085603714</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>145</srsid>
+        <srid>2154</srid>
+        <authid>EPSG:2154</authid>
+        <description>RGF93 / Lambert-93</description>
+        <projectionacronym>lcc</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="scan_250_france20191204133658843" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="GeoMCE_gabarit_point20191204135555483" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="scan_1_million_france20191204133640845" srcAuthId="EPSG:4326" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="GeoMCE_gabarit_point20191204133321788" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="GeoMCE_gabarit_ligne20191204133831642" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="GeoMCE_gabarit20191204134704182" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="GeoMCE_gabarit_polygone20191204135407373" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="GeoMCE_gabarit_point20191204133633756" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="GeoMCE_gabarit_ligne20191204133749765" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="sasa20191204144359839" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="GeoMCE_gabarit_ligne20191204135407326" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" destDatumTransform="-1" layerid="GeoMCE_gabarit_polygone20191204142726974" srcAuthId="EPSG:2154" srcDatumTransform="-1"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>GeoMCE_gabarit_ligne20191204135407326</item>
+      <item>GeoMCE_gabarit_point20191204135555483</item>
+      <item>GeoMCE_gabarit_polygone20191204142726974</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="GeoMCE_gabarit_polygone" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="GeoMCE_gabarit_polygone20191204142726974" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="GeoMCE_gabarit_point" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="GeoMCE_gabarit_point20191204135555483" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="GeoMCE_gabarit_ligne" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="GeoMCE_gabarit_ligne20191204135407326" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer geometry="Line" hasScaleBasedVisibilityFlag="0" maxLabelScale="1e+08" maximumScale="1e+08" minLabelScale="0" minimumScale="0" scaleBasedLabelVisibilityFlag="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" type="vector">
+      <extent>
+        <xmin>839643.52774941455572844</xmin>
+        <ymin>6515394.6933964304625988</ymin>
+        <xmax>865193.66081902245059609</xmax>
+        <ymax>6525097.27557476237416267</ymax>
+      </extent>
+      <id>GeoMCE_gabarit_ligne20191204135407326</id>
+      <datasource>GeoMCE_gabarit_ligne.shp</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>GeoMCE_gabarit_ligne</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>145</srsid>
+          <srid>2154</srid>
+          <authid>EPSG:2154</authid>
+          <description>RGF93 / Lambert-93</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE( &quot;DESCRIPTIO&quot;, '&lt;NULL&gt;' )</previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype name="ID" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="NOM" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="CATEGORIE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="A-Accompagnement" value="A"/>
+            <value key="A1-1-a.Acquisition de parcelle sans mise en œuvre d’action écologique complémentaire" value="A1-1-a."/>
+            <value key="A1-1.-Site en bon état écologique et fortement menacé répondant au cas dérogatoire des LD ERC" value="A1-1."/>
+            <value key="A1-2-a.Acquisition de parcelle sans mise en œuvre d’action écologique complémentaire. Le milieu acquis peut ne pas respecter la condition d’équivalence écologique" value="A1-2-a."/>
+            <value key="A1-2.-Site en bon état de conservation" value="A1-2."/>
+            <value key="A1-Préservation foncière" value="A1"/>
+            <value key="A2-1.-Pérennité des mesures compensatoires C1 à C3 et A2" value="A2-1."/>
+            <value key="A2-A-a.Mise en place d’un outil réglementaire du Code de l’Environnement ou du Code Rural et de la pêche ou du Code de l’Urbanisme : à préciser" value="A2-A-a."/>
+            <value key="A2-A-b.Rattachement du foncier à un réseau de sites locaux : à préciser" value="A2-A-b."/>
+            <value key="A2-A-c.Cession / rétrocession du foncier : à préciser" value="A2-A-c."/>
+            <value key="A2-A-d.Mise en place d’obligations réelles environnementales" value="A2-A-d."/>
+            <value key="A2-Pérennité des mesures compensatoires C1 à C3 et A2" value="A2"/>
+            <value key="A3-1-a.Aménagement ponctuel (abris ou gîtes artificiels pour la faune)" value="A3-1-a."/>
+            <value key="A3-1-b.Aide à la recolonisation végétale" value="A3-1-b."/>
+            <value key="A3-1-c.Autre : à préciser" value="A3-1-c."/>
+            <value key="A3-1.-Réaménagement / rétablissement" value="A3-1."/>
+            <value key="A3-Réaménagement / rétablissement" value="A3"/>
+            <value key="A4-1-a.Aide financière au fonctionnement de structures locales" value="A4-1-a."/>
+            <value key="A4-1-b.Approfondissement des connaissances relatives à une espèce ou un habitat impacté, à la qualité de l’air et aux niveaux de bruit" value="A4-1-b."/>
+            <value key="A4-1-c.Financement de programmes de recherche" value="A4-1-c."/>
+            <value key="A4-1-d.Autre : à préciser" value="A4-1-d."/>
+            <value key="A4-1.-Financement intégral du maître d’ouvrage" value="A4-1."/>
+            <value key="A4-2-a.Contribution financière au déploiement d’actions prévues par un document couvrant le territoire impacté" value="A4-2-a."/>
+            <value key="A4-2-b.Contribution au financement de la réalisation de document d’action en faveur d’une espèce ou d’un habitat impacté par le projet" value="A4-2-b."/>
+            <value key="A4-2-c.Financement de programmes de recherche" value="A4-2-c."/>
+            <value key="A4-2-d.Autres : à préciser" value="A4-2-d."/>
+            <value key="A4-2.-Contribution à une politique publique" value="A4-2."/>
+            <value key="A4-Financement" value="A4"/>
+            <value key="A5-1-a.Action expérimentale de génie-écologique" value="A5-1-a."/>
+            <value key="A5-1-b.Action expérimentale de renforcement de population ou de transplantation d’individus / translocation manuelle ou mécanique" value="A5-1-b."/>
+            <value key="A5-1-c.Autre : à préciser" value="A5-1-c."/>
+            <value key="A5-1.-Actions expérimentales" value="A5-1."/>
+            <value key="A5-Actions expérimentales" value="A5"/>
+            <value key="A6-1-a.Organisation administrative du chantier" value="A6-1-a."/>
+            <value key="A6-1-b.Mise en place d’un comité de suivi des mesures" value="A6-1-b."/>
+            <value key="A6-1-c.Autre : à préciser" value="A6-1-c."/>
+            <value key="A6-1.-Gouvernance" value="A6-1."/>
+            <value key="A6-2-a.Action de gestion de la connaissance collective" value="A6-2-a."/>
+            <value key="A6-2-b.Déploiement d’actions de communication" value="A6-2-b."/>
+            <value key="A6-2-c.Déploiement d’actions de sensibilisation" value="A6-2-c."/>
+            <value key="A6-2-d.Dispositif de canalisation du public ou de limitation des accès" value="A6-2-d."/>
+            <value key="A6-2-e.Autre : à préciser" value="A6-2-e."/>
+            <value key="A6-2.-Communication, sensibilisation ou de diffusion des connaissances" value="A6-2."/>
+            <value key="A6-Action de gouvernance/ sensibilisation / communication /" value="A6"/>
+            <value key="A7-1-a.Mesure d’accompagnement ne rentrant dans aucune des catégories ci-avant A1 à A6 : à préciser" value="A7-1-a."/>
+            <value key="A7-1.-autre" value="A7-1."/>
+            <value key="A7-Autre" value="A7"/>
+            <value key="C-Compensation" value="C"/>
+            <value key="C1-1-a.Création ou renaturation d’habitats et d’habitats favorables aux espèces cibles et à leur guilde (à préciser)" value="C1-1-a."/>
+            <value key="C1-1-b.Aménagement ponctuel (abris ou gîtes artificiels pour la faune) complémentaire à une mesure C1.a Se distingue de la mesure R2-2 « installation d’abris ou de gîtes artificiels pour la faune » car n’est pas localisé sur le site impacté mais sur le site de compensation" value="C1-1-b."/>
+            <value key="C1-1-c.Autre : à préciser." value="C1-1-c."/>
+            <value key="C1-1.-Action concernant tous types de milieux" value="C1-1."/>
+            <value key="C1-Création / Renaturation de milieu" value="C1"/>
+            <value key="C2-1-a.Enlèvement de dispositifs d’aménagements antérieurs (déconstruction) hors ouvrages en eau (voir C2.2.i)" value="C2-1-a."/>
+            <value key="C2-1-b.Enlèvement / traitement d’espèces exotiques envahissantes" value="C2-1-b."/>
+            <value key="C2-1-c.Etrépage / Décapage / Décaissement du sol ou suppression de remblais," value="C2-1-c."/>
+            <value key="C2-1-d.Réensemencement de milieux dégradés, replantation, restauration de haies existantes mais dégradées" value="C2-1-d."/>
+            <value key="C2-1-e.Réouverture du milieu par débroussaillage d’espèces ligneuses, abattage d’arbres, etc." value="C2-1-e."/>
+            <value key="C2-1-f.Restauration de corridor écologique" value="C2-1-f."/>
+            <value key="C2-1-g.Aménagement ponctuel (abris ou gîtes artificiels pour la faune) complémentaire à une autre mesure C2 Se distingue de la mesure R2-2t « installation d’abris ou de gîtes artificiels pour la faune » car n’est pas localisé sur le site impacté mais sur le site de compensation" value="C2-1-g."/>
+            <value key="C2-1-h.Autre : à préciser." value="C2-1-h."/>
+            <value key="C2-1.-Action concernant tous types de milieux (sauf cours d’eau)" value="C2-1."/>
+            <value key="C2-2-a.Reprofilage / Restauration de berges (yc suppression des protections artificielles)" value="C2-2-a."/>
+            <value key="C2-2-b.Amélioration / entretien d’annexes hydrauliques / décolmatage de fond et action sur la source du colmatage" value="C2-2-b."/>
+            <value key="C2-2-c.Reconnexion d’annexes hydrauliques avec le cours d’eau / reconnexion lit mineur/lit majeur" value="C2-2-c."/>
+            <value key="C2-2-d.Restauration des conditions hydromorphologique du lit mineur (hors emprise)" value="C2-2-d."/>
+            <value key="C2-2-e.Restauration des modalités d’alimentation et de circulation de l’eau au sein d’une ZH" value="C2-2-e."/>
+            <value key="C2-2-f.Restauration des zones de frayes" value="C2-2-f."/>
+            <value key="C2-2-g.Restauration de ripisylves existantes mais dégradées" value="C2-2-g."/>
+            <value key="C2-2-h.Modification ou équipement d’ouvrage existant (hors emprise du projet)" value="C2-2-h."/>
+            <value key="C2-2-i.Arasement ou dérasement d’un obstacle transversal, d’un seuil, d’un busage (cours d’eau)" value="C2-2-i."/>
+            <value key="C2-2-j.Aménagement d’un point d’abreuvement et mise en défens des berges" value="C2-2-j."/>
+            <value key="C2-2-k.Autre : à préciser" value="C2-2-k."/>
+            <value key="C2-2.-Actions spécifiques aux cours d’eau (lit mineur + lit majeur), annexes hydrauliques, étendues d’eau stagnantes et zones humides" value="C2-2."/>
+            <value key="C2-Restauration / Réhabilitation" value="C2"/>
+            <value key="C3-1-a.Abandon ou forte réduction de tout traitement phytosanitaire – messicoles" value="C3-1-a."/>
+            <value key="C3-1-b.Abandon de toute gestion : îlot de senescence, autre (à préciser)" value="C3-1-b."/>
+            <value key="C3-1-c.Changement des pratiques culturales par conversion de terres cultivées ou exploitées de manière intensive" value="C3-1-c."/>
+            <value key="C3-1-d.Autre : à préciser" value="C3-1-d."/>
+            <value key="C3-1.-Abandon ou changement total des modalités de gestion antérieures" value="C3-1."/>
+            <value key="C3-2-a.Modification de la gestion des niveaux d’eau" value="C3-2-a."/>
+            <value key="C3-2-b.Modification des modalités de fauche et/ou de pâturage" value="C3-2-b."/>
+            <value key="C3-2-c.Mise en place de pratiques de gestion alternatives plus respectueuses" value="C3-2-c."/>
+            <value key="C3-2-d.Modification des modalités de fréquentation humaine" value="C3-2-d."/>
+            <value key="C3-2-e.Autre : à préciser" value="C3-2-e."/>
+            <value key="C3-2.-Simple évolution des modalités de gestion antérieures" value="C3-2."/>
+            <value key="C3-Evolution des pratiques de gestion" value="C3"/>
+            <value key="E-Évitement" value="E"/>
+            <value key="E1-1-a.Évitement des populations connues d’espèces protégées ou à fort enjeux" value="E1-1-a."/>
+            <value key="E1-1-b.Évitement des sites à enjeux du territoire" value="E1-1-b."/>
+            <value key="E1-1-c.Redéfinition des caractéristiques du projet" value="E1-1-c."/>
+            <value key="E1-1-d.Autre : à préciser" value="E1-1-d."/>
+            <value key="E1-1.Phase de conception du dossier de demande" value="E1-1."/>
+            <value key="E1-Évitement « amont » (stade anticipé)" value="E1"/>
+            <value key="E2-1-a.Balisage préventif divers ou mise en défens ou dispositif de protection d’une station d’une espèce patrimoniale, d’un habitat d’une espèce patrimoniale, d’habitats d’espèces, d’arbres remarquable" value="E2-1-a."/>
+            <value key="E2-1-b.Limitation des emprises des travaux" value="E2-1-b."/>
+            <value key="E2-1-c..Autre : à préciser" value="E2-1-c.."/>
+            <value key="E2-1.-Phase travaux" value="E2-1."/>
+            <value key="E2-2-a.Éloignement de l’ouvrage vis-à-vis des populations (humaines) sensibles" value="E2-2-a."/>
+            <value key="E2-2-b.Mesure des documents de planification délimitant des zones et affectant les sols de manière à éloigner les populations sensibles, application de marges de recul (urbanisations futures)" value="E2-2-b."/>
+            <value key="E2-2-c.Mesure d’orientation d’une installation ou d’optimisation de la géométrie du projet" value="E2-2-c."/>
+            <value key="E2-2-d.Mesure d’acquisition hors emprise du projet" value="E2-2-d."/>
+            <value key="E2-2-e.Limitation des emprises du projet" value="E2-2-e."/>
+            <value key="E2-2-f.Positionnement du projet sur un secteur de moindre enjeu" value="E2-2-f."/>
+            <value key="E2-2-g.Autre : à préciser" value="E2-2-g."/>
+            <value key="E2-2.-Phase exploitation / fonctionnement" value="E2-2."/>
+            <value key="E2-Évitement géographique" value="E2"/>
+            <value key="E3-1-a.Absence de rejet dans le milieu naturel (air, eau, sol)" value="E3-1-a."/>
+            <value key="E3-1-b.Autre : à préciser" value="E3-1-b."/>
+            <value key="E3-1.-Phase travaux" value="E3-1."/>
+            <value key="E3-2-a.Absence totale d’utilisation de produits phytosanitaires" value="E3-2-a."/>
+            <value key="E3-2-b.Modifications / adaptations des choix d’aménagement, des caractéristiques du projet (à préciser)" value="E3-2-b."/>
+            <value key="E3-2-c.Autre : à préciser" value="E3-2-c."/>
+            <value key="E3-2.-Phase exploitation / fonctionnement" value="E3-2."/>
+            <value key="E3-Évitement technique" value="E3"/>
+            <value key="E4-1-a.Adaptation de la période des travaux sur l’année" value="E4-1-a."/>
+            <value key="E4-1-b.Adaptation des horaires des travaux (en journalier)" value="E4-1-b."/>
+            <value key="E4-1-c.Autre : à préciser" value="E4-1-c."/>
+            <value key="E4-1.-Phase travaux" value="E4-1."/>
+            <value key="E4-2-a.Adaptation des périodes d’exploitation sur l’année" value="E4-2-a."/>
+            <value key="E4-2-b.Adaptation des horaires d’exploitation (fonctionnement diurne, nocturne)" value="E4-2-b."/>
+            <value key="E4-2-c.Autre : à préciser" value="E4-2-c."/>
+            <value key="E4-2.-Phase exploitation / fonctionnement" value="E4-2."/>
+            <value key="E4-Évitement temporel" value="E4"/>
+            <value key="R-Réduction" value="R"/>
+            <value key="R1-1-a.Limitation / adaptation des emprises des travaux et/ou des zones d’accès et/ou des zones de circulation des engins de chantier" value="R1-1-a."/>
+            <value key="R1-1-b.Limitation / adaptation des installations de chantier" value="R1-1-b."/>
+            <value key="R1-1-c.Balisage préventif divers ou mise en défens (pour partie) ou dispositif de protection d’une station d’une espèce patrimoniale, d’un habitat d’une espèce patrimoniale, d’habitats d’espèces, arbres remarquables" value="R1-1-c."/>
+            <value key="R1-1-d.Autre : à préciser." value="R1-1-d."/>
+            <value key="R1-1.-Phase travaux" value="R1-1."/>
+            <value key="R1-2-a.Limitation / adaptation des emprises du projet" value="R1-2-a."/>
+            <value key="R1-2-b.Balisage définitif divers ou mise en défens définitive (pour partie) ou dispositif de protection définitif d’une station d’une espèce patrimoniale, d’un habitat d’une espèce patrimoniale, d’habitats d’espèces, arbres remarquables" value="R1-2-b."/>
+            <value key="R1-2-c.Autre : à préciser." value="R1-2-c."/>
+            <value key="R1-2.-Phase exploitation / fonctionnement" value="R1-2."/>
+            <value key="R1-Réduction géographique" value="R1"/>
+            <value key="R2-1-a.Adaptation des modalités de circulation des engins de chantier" value="R2-1-a."/>
+            <value key="R2-1-b.Mise en place d’écran naturel ou artificiel temporaire" value="R2-1-b."/>
+            <value key="R2-1-c.Mode particulier d’évacuation des matériaux, déblais et résidus de chantier : transport fluvial, transport ferroviaire, etc." value="R2-1-c."/>
+            <value key="R2-1-d.Procédé technique limitant les impacts du chantier à la source" value="R2-1-d."/>
+            <value key="R2-1-e.Optimisation de la gestion des matériaux et déblais" value="R2-1-e."/>
+            <value key="R2-1-f.Dispositif préventif de lutte contre une pollution et dispositif d’assainissement provisoire de gestion des eaux pluviales et de chantier" value="R2-1-f."/>
+            <value key="R2-1-g.Actions correctives faisant suite à une mise en évidence d’une dégradation sur le milieu" value="R2-1-g."/>
+            <value key="R2-1-h.Dispositif préventif de lutte contre l’érosion des sols" value="R2-1-h."/>
+            <value key="R2-1-i.Dispositif préventif de lutte contre les espèces exotiques envahissantes" value="R2-1-i."/>
+            <value key="R2-1-j.Dispositif limitant les impacts liés au passage des engins de chantier" value="R2-1-j."/>
+            <value key="R2-1-k.Clôture et dispositif de franchissement provisoires adaptés aux espèces animales cibles" value="R2-1-k."/>
+            <value key="R2-1-l.Dispositif permettant d’éloigner les espèces à enjeux et limitant leur installation. Mise en œuvre avant les travaux ou pendant la phase travaux" value="R2-1-l."/>
+            <value key="R2-1-m.Dispositif de limitation des nuisances autre que écran" value="R2-1-m."/>
+            <value key="R2-1-n.Maintien d’un débit minimum de cours d’eau" value="R2-1-n."/>
+            <value key="R2-1-o.Maintien d’une connexion latérale (espèces aquatiques)" value="R2-1-o."/>
+            <value key="R2-1-p.Récupération et transfert d’une partie du milieu naturel" value="R2-1-p."/>
+            <value key="R2-1-q.Prélèvement ou sauvetage avant destruction de spécimens d’espèces – Espèce(s) à préciser" value="R2-1-q."/>
+            <value key="R2-1-r.Gestion écologique temporaire des habitats dans la zone d’emprise des travaux" value="R2-1-r."/>
+            <value key="R2-1-s.Dispositif d’aide à la recolonisation du milieu" value="R2-1-s."/>
+            <value key="R2-1-t.Autre : à préciser" value="R2-1-t."/>
+            <value key="R2-1.-Phase travaux" value="R2-1."/>
+            <value key="R2-2-a.Action sur les conditions de circulation (ferroviaire, routier, aérien)" value="R2-2-a."/>
+            <value key="R2-2-b.Procédés techniques limitant les émissions polluantes et sonores à la source" value="R2-2-b."/>
+            <value key="R2-2-c.Procédés techniques limitant la dispersion des polluants et la propagation des ondes acoustiques (écrans, etc.)" value="R2-2-c."/>
+            <value key="R2-2-d.Dispositif anti-collision et d’effarouchement (hors clôture spécifique)" value="R2-2-d."/>
+            <value key="R2-2-e.Adaptation d’un ouvrage de franchissement hydraulique pour le passage de la faune" value="R2-2-e."/>
+            <value key="R2-2-f.Passage à faune (supérieur et inférieur)" value="R2-2-f."/>
+            <value key="R2-2-g.Choix d’aménagements permettant de limiter l’exposition aux nuisances (TC, modes actifs, élévation d’un bâtiment)" value="R2-2-g."/>
+            <value key="R2-2-h.Dispositif complémentaire au droit d’un passage faune afin de favoriser sa fonctionnalité" value="R2-2-h."/>
+            <value key="R2-2-i.Dispositif de limitation des nuisances" value="R2-2-i."/>
+            <value key="R2-2-j.Maintien d’un débit minimum biologique de cours d’eau pour le maintien des populations en bon état écologique ou d’une connexion latérale" value="R2-2-j."/>
+            <value key="R2-2-k.Clôture spécifique (y compris échappatoire) et dispositif anti-pénétration dans les emprises" value="R2-2-k."/>
+            <value key="R2-2-l.Plantation sur talus type up-over" value="R2-2-l."/>
+            <value key="R2-2-m.Installation d’abris ou de gîtes artificiels pour la faune au droit du projet ou à proximité" value="R2-2-m."/>
+            <value key="R2-2-n.Dispositif technique limitant les impacts sur la continuité hydraulique" value="R2-2-n."/>
+            <value key="R2-2-o.Optimisation de la gestion des matériaux et déblais" value="R2-2-o."/>
+            <value key="R2-2-p.Autre : à préciser" value="R2-2-p."/>
+            <value key="R2-2.-Phase exploitation / fonctionnement" value="R2-2."/>
+            <value key="R2-Réduction technique" value="R2"/>
+            <value key="R3-1-a.Adaptation de la période des travaux sur l’année" value="R3-1-a."/>
+            <value key="R3-1-b.Adaptation des horaires des travaux (en journalier)" value="R3-1-b."/>
+            <value key="R3-1-c.Autre : à préciser" value="R3-1-c."/>
+            <value key="R3-1.-Phase travaux" value="R3-1."/>
+            <value key="R3-2-a.Adaptation des périodes d’exploitation / d’activité (sur l’année)" value="R3-2-a."/>
+            <value key="R3-2-b.Adaptation des horaires d’exploitation / d’activité (fonctionnement diurne, nocturne)" value="R3-2-b."/>
+            <value key="R3-2-c.Autre : à préciser" value="R3-2-c."/>
+            <value key="R3-2.-Phase exploitation / fonctionnement" value="R3-2."/>
+            <value key="R3-Réduction temporelle" value="R3"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="CIBLE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Biens matériels" value="Biens matériels"/>
+            <value key="Bruit" value="Bruit"/>
+            <value key="Continuités écologiques" value="Continuités écologiques"/>
+            <value key="Eau" value="Eau"/>
+            <value key="Equilibres biologiques" value="Equilibres biologiques"/>
+            <value key="Espaces naturels, agricoles, forestiers, maritimes ou de loisirs" value="Espaces naturels, agricoles, forestiers, maritimes ou de loisirs"/>
+            <value key="Facteurs climatiques" value="Facteurs climatiques"/>
+            <value key="Faune et flore" value="Faune et flore"/>
+            <value key="Habitats naturels" value="Habitats naturels"/>
+            <value key="Patrimoine culturel et archéologique" value="Patrimoine culturel et archéologique"/>
+            <value key="Population" value="Population"/>
+            <value key="Sites et paysages" value="Sites et paysages"/>
+            <value key="Sol" value="Sol"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="DESCRIPTIO" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="DECISION" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="REFEI" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="DUREE" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="UNITE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Année" value="Année"/>
+            <value key="Jour" value="Jour"/>
+            <value key="Mois" value="Mois"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="COUT" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="MONTANT_PR" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="COMMUNES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="MODALITE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Audit de chantier" value="Audit de chantier"/>
+            <value key="Autre" value="Autre"/>
+            <value key="Bilan/compte rendu de suivi" value="Bilan/compte rendu de suivi"/>
+            <value key="Rapport de fin de chantier" value="Rapport de fin de chantier"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="FAUNES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="FLORES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="ECHEANCES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" name="0" type="line">
+            <layer class="SimpleLine" locked="0" pass="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="121,25,199,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="2"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value="&gt;"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>DESCRIPTIO</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color blue="0" fieldname="" green="0" red="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset units="pt" x="0" xfieldname="" y="0" yfieldname=""/>
+        <angle auto="0" fieldname="" value="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor blue="255" fieldname="" green="255" red="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory angleOffset="1440" backgroundAlpha="255" backgroundColor="#ffffff" barWidth="5" diagramOrientation="Up" enabled="0" height="15" labelPlacementMethod="XHeight" maxScaleDenominator="1e+08" minScaleDenominator="0" minimumSize="0" penAlpha="255" penColor="#000000" penWidth="0" scaleBasedVisibility="0" scaleDependency="Area" sizeType="MM" transparency="0" width="15">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" linePlacementFlags="10" obstacle="0" placement="2" priority="0" showAll="1" xPosColumn="-1" yPosColumn="-1" zIndex="0"/>
+      <annotationform>C:/Users/cedric.claude/Desktop/GeoMCE_gabarit/nouveaugabarit12novembre/shapefile</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>C:/Users/cedric.claude/Desktop/GeoMCE_gabarit/nouveaugabarit12novembre/shapefile</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>C:/Users/cedric.claude/Desktop/GeoMCE_gabarit/nouveaugabarit12novembre/shapefile</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ
+"Fonction d'initialisation Python"
+Voici un exemple à suivre:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+⇥geom = feature.geometry()
+⇥control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer geometry="Point" hasScaleBasedVisibilityFlag="0" maxLabelScale="1e+08" maximumScale="1e+08" minLabelScale="0" minimumScale="0" scaleBasedLabelVisibilityFlag="0" simplifyDrawingHints="0" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" type="vector">
+      <extent>
+        <xmin>996845.57275126536842436</xmin>
+        <ymin>6261356.83551225438714027</ymin>
+        <xmax>996845.57275126536842436</xmax>
+        <ymax>6261356.83551225438714027</ymax>
+      </extent>
+      <id>GeoMCE_gabarit_point20191204135555483</id>
+      <datasource>GeoMCE_gabarit_point.shp</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>GeoMCE_gabarit_point</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>145</srsid>
+          <srid>2154</srid>
+          <authid>EPSG:2154</authid>
+          <description>RGF93 / Lambert-93</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE( &quot;DESCRIPTIO&quot;, '&lt;NULL&gt;' )</previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype name="ID" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="NOM" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="CATEGORIE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="A-Accompagnement" value="A"/>
+            <value key="A1-1-a.Acquisition de parcelle sans mise en œuvre d’action écologique complémentaire" value="A1-1-a."/>
+            <value key="A1-1.-Site en bon état écologique et fortement menacé répondant au cas dérogatoire des LD ERC" value="A1-1."/>
+            <value key="A1-2-a.Acquisition de parcelle sans mise en œuvre d’action écologique complémentaire. Le milieu acquis peut ne pas respecter la condition d’équivalence écologique" value="A1-2-a."/>
+            <value key="A1-2.-Site en bon état de conservation" value="A1-2."/>
+            <value key="A1-Préservation foncière" value="A1"/>
+            <value key="A2-1.-Pérennité des mesures compensatoires C1 à C3 et A2" value="A2-1."/>
+            <value key="A2-A-a.Mise en place d’un outil réglementaire du Code de l’Environnement ou du Code Rural et de la pêche ou du Code de l’Urbanisme : à préciser" value="A2-A-a."/>
+            <value key="A2-A-b.Rattachement du foncier à un réseau de sites locaux : à préciser" value="A2-A-b."/>
+            <value key="A2-A-c.Cession / rétrocession du foncier : à préciser" value="A2-A-c."/>
+            <value key="A2-A-d.Mise en place d’obligations réelles environnementales" value="A2-A-d."/>
+            <value key="A2-Pérennité des mesures compensatoires C1 à C3 et A2" value="A2"/>
+            <value key="A3-1-a.Aménagement ponctuel (abris ou gîtes artificiels pour la faune)" value="A3-1-a."/>
+            <value key="A3-1-b.Aide à la recolonisation végétale" value="A3-1-b."/>
+            <value key="A3-1-c.Autre : à préciser" value="A3-1-c."/>
+            <value key="A3-1.-Réaménagement / rétablissement" value="A3-1."/>
+            <value key="A3-Réaménagement / rétablissement" value="A3"/>
+            <value key="A4-1-a.Aide financière au fonctionnement de structures locales" value="A4-1-a."/>
+            <value key="A4-1-b.Approfondissement des connaissances relatives à une espèce ou un habitat impacté, à la qualité de l’air et aux niveaux de bruit" value="A4-1-b."/>
+            <value key="A4-1-c.Financement de programmes de recherche" value="A4-1-c."/>
+            <value key="A4-1-d.Autre : à préciser" value="A4-1-d."/>
+            <value key="A4-1.-Financement intégral du maître d’ouvrage" value="A4-1."/>
+            <value key="A4-2-a.Contribution financière au déploiement d’actions prévues par un document couvrant le territoire impacté" value="A4-2-a."/>
+            <value key="A4-2-b.Contribution au financement de la réalisation de document d’action en faveur d’une espèce ou d’un habitat impacté par le projet" value="A4-2-b."/>
+            <value key="A4-2-c.Financement de programmes de recherche" value="A4-2-c."/>
+            <value key="A4-2-d.Autres : à préciser" value="A4-2-d."/>
+            <value key="A4-2.-Contribution à une politique publique" value="A4-2."/>
+            <value key="A4-Financement" value="A4"/>
+            <value key="A5-1-a.Action expérimentale de génie-écologique" value="A5-1-a."/>
+            <value key="A5-1-b.Action expérimentale de renforcement de population ou de transplantation d’individus / translocation manuelle ou mécanique" value="A5-1-b."/>
+            <value key="A5-1-c.Autre : à préciser" value="A5-1-c."/>
+            <value key="A5-1.-Actions expérimentales" value="A5-1."/>
+            <value key="A5-Actions expérimentales" value="A5"/>
+            <value key="A6-1-a.Organisation administrative du chantier" value="A6-1-a."/>
+            <value key="A6-1-b.Mise en place d’un comité de suivi des mesures" value="A6-1-b."/>
+            <value key="A6-1-c.Autre : à préciser" value="A6-1-c."/>
+            <value key="A6-1.-Gouvernance" value="A6-1."/>
+            <value key="A6-2-a.Action de gestion de la connaissance collective" value="A6-2-a."/>
+            <value key="A6-2-b.Déploiement d’actions de communication" value="A6-2-b."/>
+            <value key="A6-2-c.Déploiement d’actions de sensibilisation" value="A6-2-c."/>
+            <value key="A6-2-d.Dispositif de canalisation du public ou de limitation des accès" value="A6-2-d."/>
+            <value key="A6-2-e.Autre : à préciser" value="A6-2-e."/>
+            <value key="A6-2.-Communication, sensibilisation ou de diffusion des connaissances" value="A6-2."/>
+            <value key="A6-Action de gouvernance/ sensibilisation / communication /" value="A6"/>
+            <value key="A7-1-a.Mesure d’accompagnement ne rentrant dans aucune des catégories ci-avant A1 à A6 : à préciser" value="A7-1-a."/>
+            <value key="A7-1.-autre" value="A7-1."/>
+            <value key="A7-Autre" value="A7"/>
+            <value key="C-Compensation" value="C"/>
+            <value key="C1-1-a.Création ou renaturation d’habitats et d’habitats favorables aux espèces cibles et à leur guilde (à préciser)" value="C1-1-a."/>
+            <value key="C1-1-b.Aménagement ponctuel (abris ou gîtes artificiels pour la faune) complémentaire à une mesure C1.a Se distingue de la mesure R2-2 « installation d’abris ou de gîtes artificiels pour la faune » car n’est pas localisé sur le site impacté mais sur le site de compensation" value="C1-1-b."/>
+            <value key="C1-1-c.Autre : à préciser." value="C1-1-c."/>
+            <value key="C1-1.-Action concernant tous types de milieux" value="C1-1."/>
+            <value key="C1-Création / Renaturation de milieu" value="C1"/>
+            <value key="C2-1-a.Enlèvement de dispositifs d’aménagements antérieurs (déconstruction) hors ouvrages en eau (voir C2.2.i)" value="C2-1-a."/>
+            <value key="C2-1-b.Enlèvement / traitement d’espèces exotiques envahissantes" value="C2-1-b."/>
+            <value key="C2-1-c.Etrépage / Décapage / Décaissement du sol ou suppression de remblais," value="C2-1-c."/>
+            <value key="C2-1-d.Réensemencement de milieux dégradés, replantation, restauration de haies existantes mais dégradées" value="C2-1-d."/>
+            <value key="C2-1-e.Réouverture du milieu par débroussaillage d’espèces ligneuses, abattage d’arbres, etc." value="C2-1-e."/>
+            <value key="C2-1-f.Restauration de corridor écologique" value="C2-1-f."/>
+            <value key="C2-1-g.Aménagement ponctuel (abris ou gîtes artificiels pour la faune) complémentaire à une autre mesure C2 Se distingue de la mesure R2-2t « installation d’abris ou de gîtes artificiels pour la faune » car n’est pas localisé sur le site impacté mais sur le site de compensation" value="C2-1-g."/>
+            <value key="C2-1-h.Autre : à préciser." value="C2-1-h."/>
+            <value key="C2-1.-Action concernant tous types de milieux (sauf cours d’eau)" value="C2-1."/>
+            <value key="C2-2-a.Reprofilage / Restauration de berges (yc suppression des protections artificielles)" value="C2-2-a."/>
+            <value key="C2-2-b.Amélioration / entretien d’annexes hydrauliques / décolmatage de fond et action sur la source du colmatage" value="C2-2-b."/>
+            <value key="C2-2-c.Reconnexion d’annexes hydrauliques avec le cours d’eau / reconnexion lit mineur/lit majeur" value="C2-2-c."/>
+            <value key="C2-2-d.Restauration des conditions hydromorphologique du lit mineur (hors emprise)" value="C2-2-d."/>
+            <value key="C2-2-e.Restauration des modalités d’alimentation et de circulation de l’eau au sein d’une ZH" value="C2-2-e."/>
+            <value key="C2-2-f.Restauration des zones de frayes" value="C2-2-f."/>
+            <value key="C2-2-g.Restauration de ripisylves existantes mais dégradées" value="C2-2-g."/>
+            <value key="C2-2-h.Modification ou équipement d’ouvrage existant (hors emprise du projet)" value="C2-2-h."/>
+            <value key="C2-2-i.Arasement ou dérasement d’un obstacle transversal, d’un seuil, d’un busage (cours d’eau)" value="C2-2-i."/>
+            <value key="C2-2-j.Aménagement d’un point d’abreuvement et mise en défens des berges" value="C2-2-j."/>
+            <value key="C2-2-k.Autre : à préciser" value="C2-2-k."/>
+            <value key="C2-2.-Actions spécifiques aux cours d’eau (lit mineur + lit majeur), annexes hydrauliques, étendues d’eau stagnantes et zones humides" value="C2-2."/>
+            <value key="C2-Restauration / Réhabilitation" value="C2"/>
+            <value key="C3-1-a.Abandon ou forte réduction de tout traitement phytosanitaire – messicoles" value="C3-1-a."/>
+            <value key="C3-1-b.Abandon de toute gestion : îlot de senescence, autre (à préciser)" value="C3-1-b."/>
+            <value key="C3-1-c.Changement des pratiques culturales par conversion de terres cultivées ou exploitées de manière intensive" value="C3-1-c."/>
+            <value key="C3-1-d.Autre : à préciser" value="C3-1-d."/>
+            <value key="C3-1.-Abandon ou changement total des modalités de gestion antérieures" value="C3-1."/>
+            <value key="C3-2-a.Modification de la gestion des niveaux d’eau" value="C3-2-a."/>
+            <value key="C3-2-b.Modification des modalités de fauche et/ou de pâturage" value="C3-2-b."/>
+            <value key="C3-2-c.Mise en place de pratiques de gestion alternatives plus respectueuses" value="C3-2-c."/>
+            <value key="C3-2-d.Modification des modalités de fréquentation humaine" value="C3-2-d."/>
+            <value key="C3-2-e.Autre : à préciser" value="C3-2-e."/>
+            <value key="C3-2.-Simple évolution des modalités de gestion antérieures" value="C3-2."/>
+            <value key="C3-Evolution des pratiques de gestion" value="C3"/>
+            <value key="E-Évitement" value="E"/>
+            <value key="E1-1-a.Évitement des populations connues d’espèces protégées ou à fort enjeux" value="E1-1-a."/>
+            <value key="E1-1-b.Évitement des sites à enjeux du territoire" value="E1-1-b."/>
+            <value key="E1-1-c.Redéfinition des caractéristiques du projet" value="E1-1-c."/>
+            <value key="E1-1-d.Autre : à préciser" value="E1-1-d."/>
+            <value key="E1-1.Phase de conception du dossier de demande" value="E1-1."/>
+            <value key="E1-Évitement « amont » (stade anticipé)" value="E1"/>
+            <value key="E2-1-a.Balisage préventif divers ou mise en défens ou dispositif de protection d’une station d’une espèce patrimoniale, d’un habitat d’une espèce patrimoniale, d’habitats d’espèces, d’arbres remarquable" value="E2-1-a."/>
+            <value key="E2-1-b.Limitation des emprises des travaux" value="E2-1-b."/>
+            <value key="E2-1-c..Autre : à préciser" value="E2-1-c.."/>
+            <value key="E2-1.-Phase travaux" value="E2-1."/>
+            <value key="E2-2-a.Éloignement de l’ouvrage vis-à-vis des populations (humaines) sensibles" value="E2-2-a."/>
+            <value key="E2-2-b.Mesure des documents de planification délimitant des zones et affectant les sols de manière à éloigner les populations sensibles, application de marges de recul (urbanisations futures)" value="E2-2-b."/>
+            <value key="E2-2-c.Mesure d’orientation d’une installation ou d’optimisation de la géométrie du projet" value="E2-2-c."/>
+            <value key="E2-2-d.Mesure d’acquisition hors emprise du projet" value="E2-2-d."/>
+            <value key="E2-2-e.Limitation des emprises du projet" value="E2-2-e."/>
+            <value key="E2-2-f.Positionnement du projet sur un secteur de moindre enjeu" value="E2-2-f."/>
+            <value key="E2-2-g.Autre : à préciser" value="E2-2-g."/>
+            <value key="E2-2.-Phase exploitation / fonctionnement" value="E2-2."/>
+            <value key="E2-Évitement géographique" value="E2"/>
+            <value key="E3-1-a.Absence de rejet dans le milieu naturel (air, eau, sol)" value="E3-1-a."/>
+            <value key="E3-1-b.Autre : à préciser" value="E3-1-b."/>
+            <value key="E3-1.-Phase travaux" value="E3-1."/>
+            <value key="E3-2-a.Absence totale d’utilisation de produits phytosanitaires" value="E3-2-a."/>
+            <value key="E3-2-b.Modifications / adaptations des choix d’aménagement, des caractéristiques du projet (à préciser)" value="E3-2-b."/>
+            <value key="E3-2-c.Autre : à préciser" value="E3-2-c."/>
+            <value key="E3-2.-Phase exploitation / fonctionnement" value="E3-2."/>
+            <value key="E3-Évitement technique" value="E3"/>
+            <value key="E4-1-a.Adaptation de la période des travaux sur l’année" value="E4-1-a."/>
+            <value key="E4-1-b.Adaptation des horaires des travaux (en journalier)" value="E4-1-b."/>
+            <value key="E4-1-c.Autre : à préciser" value="E4-1-c."/>
+            <value key="E4-1.-Phase travaux" value="E4-1."/>
+            <value key="E4-2-a.Adaptation des périodes d’exploitation sur l’année" value="E4-2-a."/>
+            <value key="E4-2-b.Adaptation des horaires d’exploitation (fonctionnement diurne, nocturne)" value="E4-2-b."/>
+            <value key="E4-2-c.Autre : à préciser" value="E4-2-c."/>
+            <value key="E4-2.-Phase exploitation / fonctionnement" value="E4-2."/>
+            <value key="E4-Évitement temporel" value="E4"/>
+            <value key="R-Réduction" value="R"/>
+            <value key="R1-1-a.Limitation / adaptation des emprises des travaux et/ou des zones d’accès et/ou des zones de circulation des engins de chantier" value="R1-1-a."/>
+            <value key="R1-1-b.Limitation / adaptation des installations de chantier" value="R1-1-b."/>
+            <value key="R1-1-c.Balisage préventif divers ou mise en défens (pour partie) ou dispositif de protection d’une station d’une espèce patrimoniale, d’un habitat d’une espèce patrimoniale, d’habitats d’espèces, arbres remarquables" value="R1-1-c."/>
+            <value key="R1-1-d.Autre : à préciser." value="R1-1-d."/>
+            <value key="R1-1.-Phase travaux" value="R1-1."/>
+            <value key="R1-2-a.Limitation / adaptation des emprises du projet" value="R1-2-a."/>
+            <value key="R1-2-b.Balisage définitif divers ou mise en défens définitive (pour partie) ou dispositif de protection définitif d’une station d’une espèce patrimoniale, d’un habitat d’une espèce patrimoniale, d’habitats d’espèces, arbres remarquables" value="R1-2-b."/>
+            <value key="R1-2-c.Autre : à préciser." value="R1-2-c."/>
+            <value key="R1-2.-Phase exploitation / fonctionnement" value="R1-2."/>
+            <value key="R1-Réduction géographique" value="R1"/>
+            <value key="R2-1-a.Adaptation des modalités de circulation des engins de chantier" value="R2-1-a."/>
+            <value key="R2-1-b.Mise en place d’écran naturel ou artificiel temporaire" value="R2-1-b."/>
+            <value key="R2-1-c.Mode particulier d’évacuation des matériaux, déblais et résidus de chantier : transport fluvial, transport ferroviaire, etc." value="R2-1-c."/>
+            <value key="R2-1-d.Procédé technique limitant les impacts du chantier à la source" value="R2-1-d."/>
+            <value key="R2-1-e.Optimisation de la gestion des matériaux et déblais" value="R2-1-e."/>
+            <value key="R2-1-f.Dispositif préventif de lutte contre une pollution et dispositif d’assainissement provisoire de gestion des eaux pluviales et de chantier" value="R2-1-f."/>
+            <value key="R2-1-g.Actions correctives faisant suite à une mise en évidence d’une dégradation sur le milieu" value="R2-1-g."/>
+            <value key="R2-1-h.Dispositif préventif de lutte contre l’érosion des sols" value="R2-1-h."/>
+            <value key="R2-1-i.Dispositif préventif de lutte contre les espèces exotiques envahissantes" value="R2-1-i."/>
+            <value key="R2-1-j.Dispositif limitant les impacts liés au passage des engins de chantier" value="R2-1-j."/>
+            <value key="R2-1-k.Clôture et dispositif de franchissement provisoires adaptés aux espèces animales cibles" value="R2-1-k."/>
+            <value key="R2-1-l.Dispositif permettant d’éloigner les espèces à enjeux et limitant leur installation. Mise en œuvre avant les travaux ou pendant la phase travaux" value="R2-1-l."/>
+            <value key="R2-1-m.Dispositif de limitation des nuisances autre que écran" value="R2-1-m."/>
+            <value key="R2-1-n.Maintien d’un débit minimum de cours d’eau" value="R2-1-n."/>
+            <value key="R2-1-o.Maintien d’une connexion latérale (espèces aquatiques)" value="R2-1-o."/>
+            <value key="R2-1-p.Récupération et transfert d’une partie du milieu naturel" value="R2-1-p."/>
+            <value key="R2-1-q.Prélèvement ou sauvetage avant destruction de spécimens d’espèces – Espèce(s) à préciser" value="R2-1-q."/>
+            <value key="R2-1-r.Gestion écologique temporaire des habitats dans la zone d’emprise des travaux" value="R2-1-r."/>
+            <value key="R2-1-s.Dispositif d’aide à la recolonisation du milieu" value="R2-1-s."/>
+            <value key="R2-1-t.Autre : à préciser" value="R2-1-t."/>
+            <value key="R2-1.-Phase travaux" value="R2-1."/>
+            <value key="R2-2-a.Action sur les conditions de circulation (ferroviaire, routier, aérien)" value="R2-2-a."/>
+            <value key="R2-2-b.Procédés techniques limitant les émissions polluantes et sonores à la source" value="R2-2-b."/>
+            <value key="R2-2-c.Procédés techniques limitant la dispersion des polluants et la propagation des ondes acoustiques (écrans, etc.)" value="R2-2-c."/>
+            <value key="R2-2-d.Dispositif anti-collision et d’effarouchement (hors clôture spécifique)" value="R2-2-d."/>
+            <value key="R2-2-e.Adaptation d’un ouvrage de franchissement hydraulique pour le passage de la faune" value="R2-2-e."/>
+            <value key="R2-2-f.Passage à faune (supérieur et inférieur)" value="R2-2-f."/>
+            <value key="R2-2-g.Choix d’aménagements permettant de limiter l’exposition aux nuisances (TC, modes actifs, élévation d’un bâtiment)" value="R2-2-g."/>
+            <value key="R2-2-h.Dispositif complémentaire au droit d’un passage faune afin de favoriser sa fonctionnalité" value="R2-2-h."/>
+            <value key="R2-2-i.Dispositif de limitation des nuisances" value="R2-2-i."/>
+            <value key="R2-2-j.Maintien d’un débit minimum biologique de cours d’eau pour le maintien des populations en bon état écologique ou d’une connexion latérale" value="R2-2-j."/>
+            <value key="R2-2-k.Clôture spécifique (y compris échappatoire) et dispositif anti-pénétration dans les emprises" value="R2-2-k."/>
+            <value key="R2-2-l.Plantation sur talus type up-over" value="R2-2-l."/>
+            <value key="R2-2-m.Installation d’abris ou de gîtes artificiels pour la faune au droit du projet ou à proximité" value="R2-2-m."/>
+            <value key="R2-2-n.Dispositif technique limitant les impacts sur la continuité hydraulique" value="R2-2-n."/>
+            <value key="R2-2-o.Optimisation de la gestion des matériaux et déblais" value="R2-2-o."/>
+            <value key="R2-2-p.Autre : à préciser" value="R2-2-p."/>
+            <value key="R2-2.-Phase exploitation / fonctionnement" value="R2-2."/>
+            <value key="R2-Réduction technique" value="R2"/>
+            <value key="R3-1-a.Adaptation de la période des travaux sur l’année" value="R3-1-a."/>
+            <value key="R3-1-b.Adaptation des horaires des travaux (en journalier)" value="R3-1-b."/>
+            <value key="R3-1-c.Autre : à préciser" value="R3-1-c."/>
+            <value key="R3-1.-Phase travaux" value="R3-1."/>
+            <value key="R3-2-a.Adaptation des périodes d’exploitation / d’activité (sur l’année)" value="R3-2-a."/>
+            <value key="R3-2-b.Adaptation des horaires d’exploitation / d’activité (fonctionnement diurne, nocturne)" value="R3-2-b."/>
+            <value key="R3-2-c.Autre : à préciser" value="R3-2-c."/>
+            <value key="R3-2.-Phase exploitation / fonctionnement" value="R3-2."/>
+            <value key="R3-Réduction temporelle" value="R3"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="CIBLE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Biens matériels" value="Biens matériels"/>
+            <value key="Bruit" value="Bruit"/>
+            <value key="Continuités écologiques" value="Continuités écologiques"/>
+            <value key="Eau" value="Eau"/>
+            <value key="Equilibres biologiques" value="Equilibres biologiques"/>
+            <value key="Espaces naturels, agricoles, forestiers, maritimes ou de loisirs" value="Espaces naturels, agricoles, forestiers, maritimes ou de loisirs"/>
+            <value key="Facteurs climatiques" value="Facteurs climatiques"/>
+            <value key="Faune et flore" value="Faune et flore"/>
+            <value key="Habitats naturels" value="Habitats naturels"/>
+            <value key="Patrimoine culturel et archéologique" value="Patrimoine culturel et archéologique"/>
+            <value key="Population" value="Population"/>
+            <value key="Sites et paysages" value="Sites et paysages"/>
+            <value key="Sol" value="Sol"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="DESCRIPTIO" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="DECISION" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="REFEI" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="DUREE" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="UNITE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Année" value="Année"/>
+            <value key="Jour" value="Jour"/>
+            <value key="Mois" value="Mois"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="COUT" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="MONTANT_PR" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="COMMUNES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="MODALITE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Audit de chantier" value="Audit de chantier"/>
+            <value key="Autre" value="Autre"/>
+            <value key="Bilan/compte rendu de suivi" value="Bilan/compte rendu de suivi"/>
+            <value key="Rapport de fin de chantier" value="Rapport de fin de chantier"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="FAUNES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="FLORES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="ECHEANCES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" name="0" type="marker">
+            <layer class="SimpleMarker" locked="0" pass="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="59,69,212,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="0"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value="&gt;"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>DESCRIPTIO</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color blue="0" fieldname="" green="0" red="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset units="pt" x="0" xfieldname="" y="0" yfieldname=""/>
+        <angle auto="0" fieldname="" value="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor blue="255" fieldname="" green="255" red="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory angleOffset="1440" backgroundAlpha="255" backgroundColor="#ffffff" barWidth="5" diagramOrientation="Up" enabled="0" height="15" labelPlacementMethod="XHeight" maxScaleDenominator="1e+08" minScaleDenominator="0" minimumSize="0" penAlpha="255" penColor="#000000" penWidth="0" scaleBasedVisibility="0" scaleDependency="Area" sizeType="MM" transparency="0" width="15">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" linePlacementFlags="10" obstacle="0" placement="0" priority="0" showAll="1" xPosColumn="-1" yPosColumn="-1" zIndex="0"/>
+      <annotationform>C:/Users/cedric.claude/Desktop/GeoMCE_gabarit/nouveaugabarit12novembre/shapefile</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>C:/Users/cedric.claude/Desktop/GeoMCE_gabarit/nouveaugabarit12novembre/shapefile</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>C:/Users/cedric.claude/Desktop/GeoMCE_gabarit/nouveaugabarit12novembre/shapefile</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ
+"Fonction d'initialisation Python"
+Voici un exemple à suivre:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+⇥geom = feature.geometry()
+⇥control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer geometry="Polygon" hasScaleBasedVisibilityFlag="0" maxLabelScale="1e+08" maximumScale="1e+08" minLabelScale="0" minimumScale="0" scaleBasedLabelVisibilityFlag="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" type="vector">
+      <extent>
+        <xmin>997397.93117188103497028</xmin>
+        <ymin>6257412.65885214228183031</ymin>
+        <xmax>1000715.97470693965442479</xmax>
+        <ymax>6261678.71482578944414854</ymax>
+      </extent>
+      <id>GeoMCE_gabarit_polygone20191204142726974</id>
+      <datasource>GeoMCE_gabarit_polygone.shp</datasource>
+      <keywordList>
+        <value/>
+      </keywordList>
+      <layername>GeoMCE_gabarit_polygone</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>145</srsid>
+          <srid>2154</srid>
+          <authid>EPSG:2154</authid>
+          <description>RGF93 / Lambert-93</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE( &quot;DESCRIPTIO&quot;, '&lt;NULL&gt;' )</previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype name="ID" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="NOM" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="CATEGORIE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="A-Accompagnement" value="A"/>
+            <value key="A1-1-a.Acquisition de parcelle sans mise en œuvre d’action écologique complémentaire" value="A1-1-a."/>
+            <value key="A1-1.-Site en bon état écologique et fortement menacé répondant au cas dérogatoire des LD ERC" value="A1-1."/>
+            <value key="A1-2-a.Acquisition de parcelle sans mise en œuvre d’action écologique complémentaire. Le milieu acquis peut ne pas respecter la condition d’équivalence écologique" value="A1-2-a."/>
+            <value key="A1-2.-Site en bon état de conservation" value="A1-2."/>
+            <value key="A1-Préservation foncière" value="A1"/>
+            <value key="A2-1.-Pérennité des mesures compensatoires C1 à C3 et A2" value="A2-1."/>
+            <value key="A2-A-a.Mise en place d’un outil réglementaire du Code de l’Environnement ou du Code Rural et de la pêche ou du Code de l’Urbanisme : à préciser" value="A2-A-a."/>
+            <value key="A2-A-b.Rattachement du foncier à un réseau de sites locaux : à préciser" value="A2-A-b."/>
+            <value key="A2-A-c.Cession / rétrocession du foncier : à préciser" value="A2-A-c."/>
+            <value key="A2-A-d.Mise en place d’obligations réelles environnementales" value="A2-A-d."/>
+            <value key="A2-Pérennité des mesures compensatoires C1 à C3 et A2" value="A2"/>
+            <value key="A3-1-a.Aménagement ponctuel (abris ou gîtes artificiels pour la faune)" value="A3-1-a."/>
+            <value key="A3-1-b.Aide à la recolonisation végétale" value="A3-1-b."/>
+            <value key="A3-1-c.Autre : à préciser" value="A3-1-c."/>
+            <value key="A3-1.-Réaménagement / rétablissement" value="A3-1."/>
+            <value key="A3-Réaménagement / rétablissement" value="A3"/>
+            <value key="A4-1-a.Aide financière au fonctionnement de structures locales" value="A4-1-a."/>
+            <value key="A4-1-b.Approfondissement des connaissances relatives à une espèce ou un habitat impacté, à la qualité de l’air et aux niveaux de bruit" value="A4-1-b."/>
+            <value key="A4-1-c.Financement de programmes de recherche" value="A4-1-c."/>
+            <value key="A4-1-d.Autre : à préciser" value="A4-1-d."/>
+            <value key="A4-1.-Financement intégral du maître d’ouvrage" value="A4-1."/>
+            <value key="A4-2-a.Contribution financière au déploiement d’actions prévues par un document couvrant le territoire impacté" value="A4-2-a."/>
+            <value key="A4-2-b.Contribution au financement de la réalisation de document d’action en faveur d’une espèce ou d’un habitat impacté par le projet" value="A4-2-b."/>
+            <value key="A4-2-c.Financement de programmes de recherche" value="A4-2-c."/>
+            <value key="A4-2-d.Autres : à préciser" value="A4-2-d."/>
+            <value key="A4-2.-Contribution à une politique publique" value="A4-2."/>
+            <value key="A4-Financement" value="A4"/>
+            <value key="A5-1-a.Action expérimentale de génie-écologique" value="A5-1-a."/>
+            <value key="A5-1-b.Action expérimentale de renforcement de population ou de transplantation d’individus / translocation manuelle ou mécanique" value="A5-1-b."/>
+            <value key="A5-1-c.Autre : à préciser" value="A5-1-c."/>
+            <value key="A5-1.-Actions expérimentales" value="A5-1."/>
+            <value key="A5-Actions expérimentales" value="A5"/>
+            <value key="A6-1-a.Organisation administrative du chantier" value="A6-1-a."/>
+            <value key="A6-1-b.Mise en place d’un comité de suivi des mesures" value="A6-1-b."/>
+            <value key="A6-1-c.Autre : à préciser" value="A6-1-c."/>
+            <value key="A6-1.-Gouvernance" value="A6-1."/>
+            <value key="A6-2-a.Action de gestion de la connaissance collective" value="A6-2-a."/>
+            <value key="A6-2-b.Déploiement d’actions de communication" value="A6-2-b."/>
+            <value key="A6-2-c.Déploiement d’actions de sensibilisation" value="A6-2-c."/>
+            <value key="A6-2-d.Dispositif de canalisation du public ou de limitation des accès" value="A6-2-d."/>
+            <value key="A6-2-e.Autre : à préciser" value="A6-2-e."/>
+            <value key="A6-2.-Communication, sensibilisation ou de diffusion des connaissances" value="A6-2."/>
+            <value key="A6-Action de gouvernance/ sensibilisation / communication /" value="A6"/>
+            <value key="A7-1-a.Mesure d’accompagnement ne rentrant dans aucune des catégories ci-avant A1 à A6 : à préciser" value="A7-1-a."/>
+            <value key="A7-1.-autre" value="A7-1."/>
+            <value key="A7-Autre" value="A7"/>
+            <value key="C-Compensation" value="C"/>
+            <value key="C1-1-a.Création ou renaturation d’habitats et d’habitats favorables aux espèces cibles et à leur guilde (à préciser)" value="C1-1-a."/>
+            <value key="C1-1-b.Aménagement ponctuel (abris ou gîtes artificiels pour la faune) complémentaire à une mesure C1.a Se distingue de la mesure R2-2 « installation d’abris ou de gîtes artificiels pour la faune » car n’est pas localisé sur le site impacté mais sur le site de compensation" value="C1-1-b."/>
+            <value key="C1-1-c.Autre : à préciser." value="C1-1-c."/>
+            <value key="C1-1.-Action concernant tous types de milieux" value="C1-1."/>
+            <value key="C1-Création / Renaturation de milieu" value="C1"/>
+            <value key="C2-1-a.Enlèvement de dispositifs d’aménagements antérieurs (déconstruction) hors ouvrages en eau (voir C2.2.i)" value="C2-1-a."/>
+            <value key="C2-1-b.Enlèvement / traitement d’espèces exotiques envahissantes" value="C2-1-b."/>
+            <value key="C2-1-c.Etrépage / Décapage / Décaissement du sol ou suppression de remblais," value="C2-1-c."/>
+            <value key="C2-1-d.Réensemencement de milieux dégradés, replantation, restauration de haies existantes mais dégradées" value="C2-1-d."/>
+            <value key="C2-1-e.Réouverture du milieu par débroussaillage d’espèces ligneuses, abattage d’arbres, etc." value="C2-1-e."/>
+            <value key="C2-1-f.Restauration de corridor écologique" value="C2-1-f."/>
+            <value key="C2-1-g.Aménagement ponctuel (abris ou gîtes artificiels pour la faune) complémentaire à une autre mesure C2 Se distingue de la mesure R2-2t « installation d’abris ou de gîtes artificiels pour la faune » car n’est pas localisé sur le site impacté mais sur le site de compensation" value="C2-1-g."/>
+            <value key="C2-1-h.Autre : à préciser." value="C2-1-h."/>
+            <value key="C2-1.-Action concernant tous types de milieux (sauf cours d’eau)" value="C2-1."/>
+            <value key="C2-2-a.Reprofilage / Restauration de berges (yc suppression des protections artificielles)" value="C2-2-a."/>
+            <value key="C2-2-b.Amélioration / entretien d’annexes hydrauliques / décolmatage de fond et action sur la source du colmatage" value="C2-2-b."/>
+            <value key="C2-2-c.Reconnexion d’annexes hydrauliques avec le cours d’eau / reconnexion lit mineur/lit majeur" value="C2-2-c."/>
+            <value key="C2-2-d.Restauration des conditions hydromorphologique du lit mineur (hors emprise)" value="C2-2-d."/>
+            <value key="C2-2-e.Restauration des modalités d’alimentation et de circulation de l’eau au sein d’une ZH" value="C2-2-e."/>
+            <value key="C2-2-f.Restauration des zones de frayes" value="C2-2-f."/>
+            <value key="C2-2-g.Restauration de ripisylves existantes mais dégradées" value="C2-2-g."/>
+            <value key="C2-2-h.Modification ou équipement d’ouvrage existant (hors emprise du projet)" value="C2-2-h."/>
+            <value key="C2-2-i.Arasement ou dérasement d’un obstacle transversal, d’un seuil, d’un busage (cours d’eau)" value="C2-2-i."/>
+            <value key="C2-2-j.Aménagement d’un point d’abreuvement et mise en défens des berges" value="C2-2-j."/>
+            <value key="C2-2-k.Autre : à préciser" value="C2-2-k."/>
+            <value key="C2-2.-Actions spécifiques aux cours d’eau (lit mineur + lit majeur), annexes hydrauliques, étendues d’eau stagnantes et zones humides" value="C2-2."/>
+            <value key="C2-Restauration / Réhabilitation" value="C2"/>
+            <value key="C3-1-a.Abandon ou forte réduction de tout traitement phytosanitaire – messicoles" value="C3-1-a."/>
+            <value key="C3-1-b.Abandon de toute gestion : îlot de senescence, autre (à préciser)" value="C3-1-b."/>
+            <value key="C3-1-c.Changement des pratiques culturales par conversion de terres cultivées ou exploitées de manière intensive" value="C3-1-c."/>
+            <value key="C3-1-d.Autre : à préciser" value="C3-1-d."/>
+            <value key="C3-1.-Abandon ou changement total des modalités de gestion antérieures" value="C3-1."/>
+            <value key="C3-2-a.Modification de la gestion des niveaux d’eau" value="C3-2-a."/>
+            <value key="C3-2-b.Modification des modalités de fauche et/ou de pâturage" value="C3-2-b."/>
+            <value key="C3-2-c.Mise en place de pratiques de gestion alternatives plus respectueuses" value="C3-2-c."/>
+            <value key="C3-2-d.Modification des modalités de fréquentation humaine" value="C3-2-d."/>
+            <value key="C3-2-e.Autre : à préciser" value="C3-2-e."/>
+            <value key="C3-2.-Simple évolution des modalités de gestion antérieures" value="C3-2."/>
+            <value key="C3-Evolution des pratiques de gestion" value="C3"/>
+            <value key="E-Évitement" value="E"/>
+            <value key="E1-1-a.Évitement des populations connues d’espèces protégées ou à fort enjeux" value="E1-1-a."/>
+            <value key="E1-1-b.Évitement des sites à enjeux du territoire" value="E1-1-b."/>
+            <value key="E1-1-c.Redéfinition des caractéristiques du projet" value="E1-1-c."/>
+            <value key="E1-1-d.Autre : à préciser" value="E1-1-d."/>
+            <value key="E1-1.Phase de conception du dossier de demande" value="E1-1."/>
+            <value key="E1-Évitement « amont » (stade anticipé)" value="E1"/>
+            <value key="E2-1-a.Balisage préventif divers ou mise en défens ou dispositif de protection d’une station d’une espèce patrimoniale, d’un habitat d’une espèce patrimoniale, d’habitats d’espèces, d’arbres remarquable" value="E2-1-a."/>
+            <value key="E2-1-b.Limitation des emprises des travaux" value="E2-1-b."/>
+            <value key="E2-1-c..Autre : à préciser" value="E2-1-c.."/>
+            <value key="E2-1.-Phase travaux" value="E2-1."/>
+            <value key="E2-2-a.Éloignement de l’ouvrage vis-à-vis des populations (humaines) sensibles" value="E2-2-a."/>
+            <value key="E2-2-b.Mesure des documents de planification délimitant des zones et affectant les sols de manière à éloigner les populations sensibles, application de marges de recul (urbanisations futures)" value="E2-2-b."/>
+            <value key="E2-2-c.Mesure d’orientation d’une installation ou d’optimisation de la géométrie du projet" value="E2-2-c."/>
+            <value key="E2-2-d.Mesure d’acquisition hors emprise du projet" value="E2-2-d."/>
+            <value key="E2-2-e.Limitation des emprises du projet" value="E2-2-e."/>
+            <value key="E2-2-f.Positionnement du projet sur un secteur de moindre enjeu" value="E2-2-f."/>
+            <value key="E2-2-g.Autre : à préciser" value="E2-2-g."/>
+            <value key="E2-2.-Phase exploitation / fonctionnement" value="E2-2."/>
+            <value key="E2-Évitement géographique" value="E2"/>
+            <value key="E3-1-a.Absence de rejet dans le milieu naturel (air, eau, sol)" value="E3-1-a."/>
+            <value key="E3-1-b.Autre : à préciser" value="E3-1-b."/>
+            <value key="E3-1.-Phase travaux" value="E3-1."/>
+            <value key="E3-2-a.Absence totale d’utilisation de produits phytosanitaires" value="E3-2-a."/>
+            <value key="E3-2-b.Modifications / adaptations des choix d’aménagement, des caractéristiques du projet (à préciser)" value="E3-2-b."/>
+            <value key="E3-2-c.Autre : à préciser" value="E3-2-c."/>
+            <value key="E3-2.-Phase exploitation / fonctionnement" value="E3-2."/>
+            <value key="E3-Évitement technique" value="E3"/>
+            <value key="E4-1-a.Adaptation de la période des travaux sur l’année" value="E4-1-a."/>
+            <value key="E4-1-b.Adaptation des horaires des travaux (en journalier)" value="E4-1-b."/>
+            <value key="E4-1-c.Autre : à préciser" value="E4-1-c."/>
+            <value key="E4-1.-Phase travaux" value="E4-1."/>
+            <value key="E4-2-a.Adaptation des périodes d’exploitation sur l’année" value="E4-2-a."/>
+            <value key="E4-2-b.Adaptation des horaires d’exploitation (fonctionnement diurne, nocturne)" value="E4-2-b."/>
+            <value key="E4-2-c.Autre : à préciser" value="E4-2-c."/>
+            <value key="E4-2.-Phase exploitation / fonctionnement" value="E4-2."/>
+            <value key="E4-Évitement temporel" value="E4"/>
+            <value key="R-Réduction" value="R"/>
+            <value key="R1-1-a.Limitation / adaptation des emprises des travaux et/ou des zones d’accès et/ou des zones de circulation des engins de chantier" value="R1-1-a."/>
+            <value key="R1-1-b.Limitation / adaptation des installations de chantier" value="R1-1-b."/>
+            <value key="R1-1-c.Balisage préventif divers ou mise en défens (pour partie) ou dispositif de protection d’une station d’une espèce patrimoniale, d’un habitat d’une espèce patrimoniale, d’habitats d’espèces, arbres remarquables" value="R1-1-c."/>
+            <value key="R1-1-d.Autre : à préciser." value="R1-1-d."/>
+            <value key="R1-1.-Phase travaux" value="R1-1."/>
+            <value key="R1-2-a.Limitation / adaptation des emprises du projet" value="R1-2-a."/>
+            <value key="R1-2-b.Balisage définitif divers ou mise en défens définitive (pour partie) ou dispositif de protection définitif d’une station d’une espèce patrimoniale, d’un habitat d’une espèce patrimoniale, d’habitats d’espèces, arbres remarquables" value="R1-2-b."/>
+            <value key="R1-2-c.Autre : à préciser." value="R1-2-c."/>
+            <value key="R1-2.-Phase exploitation / fonctionnement" value="R1-2."/>
+            <value key="R1-Réduction géographique" value="R1"/>
+            <value key="R2-1-a.Adaptation des modalités de circulation des engins de chantier" value="R2-1-a."/>
+            <value key="R2-1-b.Mise en place d’écran naturel ou artificiel temporaire" value="R2-1-b."/>
+            <value key="R2-1-c.Mode particulier d’évacuation des matériaux, déblais et résidus de chantier : transport fluvial, transport ferroviaire, etc." value="R2-1-c."/>
+            <value key="R2-1-d.Procédé technique limitant les impacts du chantier à la source" value="R2-1-d."/>
+            <value key="R2-1-e.Optimisation de la gestion des matériaux et déblais" value="R2-1-e."/>
+            <value key="R2-1-f.Dispositif préventif de lutte contre une pollution et dispositif d’assainissement provisoire de gestion des eaux pluviales et de chantier" value="R2-1-f."/>
+            <value key="R2-1-g.Actions correctives faisant suite à une mise en évidence d’une dégradation sur le milieu" value="R2-1-g."/>
+            <value key="R2-1-h.Dispositif préventif de lutte contre l’érosion des sols" value="R2-1-h."/>
+            <value key="R2-1-i.Dispositif préventif de lutte contre les espèces exotiques envahissantes" value="R2-1-i."/>
+            <value key="R2-1-j.Dispositif limitant les impacts liés au passage des engins de chantier" value="R2-1-j."/>
+            <value key="R2-1-k.Clôture et dispositif de franchissement provisoires adaptés aux espèces animales cibles" value="R2-1-k."/>
+            <value key="R2-1-l.Dispositif permettant d’éloigner les espèces à enjeux et limitant leur installation. Mise en œuvre avant les travaux ou pendant la phase travaux" value="R2-1-l."/>
+            <value key="R2-1-m.Dispositif de limitation des nuisances autre que écran" value="R2-1-m."/>
+            <value key="R2-1-n.Maintien d’un débit minimum de cours d’eau" value="R2-1-n."/>
+            <value key="R2-1-o.Maintien d’une connexion latérale (espèces aquatiques)" value="R2-1-o."/>
+            <value key="R2-1-p.Récupération et transfert d’une partie du milieu naturel" value="R2-1-p."/>
+            <value key="R2-1-q.Prélèvement ou sauvetage avant destruction de spécimens d’espèces – Espèce(s) à préciser" value="R2-1-q."/>
+            <value key="R2-1-r.Gestion écologique temporaire des habitats dans la zone d’emprise des travaux" value="R2-1-r."/>
+            <value key="R2-1-s.Dispositif d’aide à la recolonisation du milieu" value="R2-1-s."/>
+            <value key="R2-1-t.Autre : à préciser" value="R2-1-t."/>
+            <value key="R2-1.-Phase travaux" value="R2-1."/>
+            <value key="R2-2-a.Action sur les conditions de circulation (ferroviaire, routier, aérien)" value="R2-2-a."/>
+            <value key="R2-2-b.Procédés techniques limitant les émissions polluantes et sonores à la source" value="R2-2-b."/>
+            <value key="R2-2-c.Procédés techniques limitant la dispersion des polluants et la propagation des ondes acoustiques (écrans, etc.)" value="R2-2-c."/>
+            <value key="R2-2-d.Dispositif anti-collision et d’effarouchement (hors clôture spécifique)" value="R2-2-d."/>
+            <value key="R2-2-e.Adaptation d’un ouvrage de franchissement hydraulique pour le passage de la faune" value="R2-2-e."/>
+            <value key="R2-2-f.Passage à faune (supérieur et inférieur)" value="R2-2-f."/>
+            <value key="R2-2-g.Choix d’aménagements permettant de limiter l’exposition aux nuisances (TC, modes actifs, élévation d’un bâtiment)" value="R2-2-g."/>
+            <value key="R2-2-h.Dispositif complémentaire au droit d’un passage faune afin de favoriser sa fonctionnalité" value="R2-2-h."/>
+            <value key="R2-2-i.Dispositif de limitation des nuisances" value="R2-2-i."/>
+            <value key="R2-2-j.Maintien d’un débit minimum biologique de cours d’eau pour le maintien des populations en bon état écologique ou d’une connexion latérale" value="R2-2-j."/>
+            <value key="R2-2-k.Clôture spécifique (y compris échappatoire) et dispositif anti-pénétration dans les emprises" value="R2-2-k."/>
+            <value key="R2-2-l.Plantation sur talus type up-over" value="R2-2-l."/>
+            <value key="R2-2-m.Installation d’abris ou de gîtes artificiels pour la faune au droit du projet ou à proximité" value="R2-2-m."/>
+            <value key="R2-2-n.Dispositif technique limitant les impacts sur la continuité hydraulique" value="R2-2-n."/>
+            <value key="R2-2-o.Optimisation de la gestion des matériaux et déblais" value="R2-2-o."/>
+            <value key="R2-2-p.Autre : à préciser" value="R2-2-p."/>
+            <value key="R2-2.-Phase exploitation / fonctionnement" value="R2-2."/>
+            <value key="R2-Réduction technique" value="R2"/>
+            <value key="R3-1-a.Adaptation de la période des travaux sur l’année" value="R3-1-a."/>
+            <value key="R3-1-b.Adaptation des horaires des travaux (en journalier)" value="R3-1-b."/>
+            <value key="R3-1-c.Autre : à préciser" value="R3-1-c."/>
+            <value key="R3-1.-Phase travaux" value="R3-1."/>
+            <value key="R3-2-a.Adaptation des périodes d’exploitation / d’activité (sur l’année)" value="R3-2-a."/>
+            <value key="R3-2-b.Adaptation des horaires d’exploitation / d’activité (fonctionnement diurne, nocturne)" value="R3-2-b."/>
+            <value key="R3-2-c.Autre : à préciser" value="R3-2-c."/>
+            <value key="R3-2.-Phase exploitation / fonctionnement" value="R3-2."/>
+            <value key="R3-Réduction temporelle" value="R3"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="CIBLE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Biens matériels" value="Biens matériels"/>
+            <value key="Bruit" value="Bruit"/>
+            <value key="Continuités écologiques" value="Continuités écologiques"/>
+            <value key="Eau" value="Eau"/>
+            <value key="Equilibres biologiques" value="Equilibres biologiques"/>
+            <value key="Espaces naturels, agricoles, forestiers, maritimes ou de loisirs" value="Espaces naturels, agricoles, forestiers, maritimes ou de loisirs"/>
+            <value key="Facteurs climatiques" value="Facteurs climatiques"/>
+            <value key="Faune et flore" value="Faune et flore"/>
+            <value key="Habitats naturels" value="Habitats naturels"/>
+            <value key="Patrimoine culturel et archéologique" value="Patrimoine culturel et archéologique"/>
+            <value key="Population" value="Population"/>
+            <value key="Sites et paysages" value="Sites et paysages"/>
+            <value key="Sol" value="Sol"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="DESCRIPTIO" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="DECISION" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="REFEI" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="DUREE" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="UNITE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Année" value="Année"/>
+            <value key="Jour" value="Jour"/>
+            <value key="Mois" value="Mois"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="COUT" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="MONTANT_PR" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="COMMUNES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="MODALITE" widgetv2type="ValueMap">
+          <widgetv2config fieldEditable="1" labelOnTop="0">
+            <value key="Audit de chantier" value="Audit de chantier"/>
+            <value key="Autre" value="Autre"/>
+            <value key="Bilan/compte rendu de suivi" value="Bilan/compte rendu de suivi"/>
+            <value key="Rapport de fin de chantier" value="Rapport de fin de chantier"/>
+          </widgetv2config>
+        </edittype>
+        <edittype name="FAUNES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="FLORES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+        <edittype name="ECHEANCES" widgetv2type="TextEdit">
+          <widgetv2config IsMultiline="0" UseHtml="0" fieldEditable="1" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" name="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="97,27,168,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value="&gt;"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>DESCRIPTIO</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color blue="0" fieldname="" green="0" red="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset units="pt" x="0" xfieldname="" y="0" yfieldname=""/>
+        <angle auto="0" fieldname="" value="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor blue="255" fieldname="" green="255" red="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie">
+        <DiagramCategory angleOffset="1440" backgroundAlpha="255" backgroundColor="#ffffff" barWidth="5" diagramOrientation="Up" enabled="0" height="15" labelPlacementMethod="XHeight" maxScaleDenominator="1e+08" minScaleDenominator="0" minimumSize="0" penAlpha="255" penColor="#000000" penWidth="0" scaleBasedVisibility="0" scaleDependency="Area" sizeType="MM" transparency="0" width="15">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" linePlacementFlags="10" obstacle="0" placement="0" priority="0" showAll="1" xPosColumn="-1" yPosColumn="-1" zIndex="0"/>
+      <annotationform>C:/Users/cedric.claude/Desktop/GeoMCE_gabarit/nouveaugabarit12novembre/shapefile</annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform>C:/Users/cedric.claude/Desktop/GeoMCE_gabarit/nouveaugabarit12novembre/shapefile</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>C:/Users/cedric.claude/Desktop/GeoMCE_gabarit/nouveaugabarit12novembre/shapefile</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ
+"Fonction d'initialisation Python"
+Voici un exemple à suivre:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+⇥geom = feature.geometry()
+⇥control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:2154</ProjectCrs>
+      <ProjectCRSID type="int">145</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>GeoMCE_gabarit_ligne20191204135407326</value>
+        <value>GeoMCE_gabarit_point20191204135555483</value>
+        <value>GeoMCE_gabarit_polygone20191204142726974</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>enabled</value>
+        <value>enabled</value>
+        <value>enabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex</value>
+        <value>to_vertex</value>
+        <value>to_vertex</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">to vertex</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
